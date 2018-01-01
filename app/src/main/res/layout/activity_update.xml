@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.nfc.UpdateActivity"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Id To Update"
+    android:textAlignment="center"
+    android:layout_marginTop="20dp"
+    android:id="@+id/u1"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter New Name"
+                android:id="@+id/u2"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Total Number Of Product"
+                android:id="@+id/u3"
+                android:layout_below="@id/e2"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Date"
+                android:id="@+id/u4"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/e3"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Company name"
+                android:textAlignment="center"
+                android:layout_below="@id/e4"
+                android:id="@+id/u5"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Company Location"
+                android:textAlignment="center"
+                android:layout_below="@id/e5"
+                android:id="@+id/u6"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        >
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/btn_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"/>
+
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
