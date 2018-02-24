@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="id"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:text="name"
+                android:textAlignment="center"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:text="number"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:text="date"
+                android:textAlignment="center"
+                android:layout_weight="0.5"
+                />
+            <TextView
+                android:text="company"
+                android:layout_weight="0.2"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="location"
+                android:textAlignment="center"
+
+                />
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/db_id"
+            android:textAlignment="center"
+
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+android:layout_weight="0.5"
+    android:id="@+id/name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+
+            android:id="@+id/number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+android:layout_weight="0.5"
+            android:id="@+id/date"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+android:layout_weight="0.2"
+            android:id="@+id/company_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/company_location"/>
+
+
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
